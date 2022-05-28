@@ -1,0 +1,76 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include "head.html" %}
+  {% include "header.html" %}
+
+
+<body>
+
+  <!-- Trying preloader -->
+  
+  <!-- <div id="preloader" class="loader_bg"
+  style="background: #000;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 999999;">
+    <div class="loader" style="border: 0 solid transparent;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: calc(50vh - 75px);
+    left: calc(50vw - 75px);">
+
+    </div>
+  </div> -->
+
+  <div class="container mb-5" 
+  style="background-color: rgb(233, 233, 233);">
+    
+    <nav>
+      <ul class="nav nav-pills justify-content-center">
+        <li class="nav-item">
+          <a href="#" class="nav-link active">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a href="#" class="nav-link">Portfolio</a>
+        </li>
+        <li class="nav-item active">
+          <a href="#" class="nav-link">Contact Me</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  
+
+  <main>
+    <div class="container-fluid mt-5 pt-5">
+      {% include "mywork.html" %}
+    </div>
+  
+    <div class="container">
+      {% include "about.html" %}
+      <hr class="between-sections">
+      {% include "contact.html" %}
+    </div>
+  </main>
+  {% include "footer.html" %}
+  <div class="dotted-scrollspy clearfix d-none d-sm-block">
+    <ul class="nav smooth-scroll flex-column">
+      <li class="nav-item"><a class="nav-link" href="#mywork"><span></span></a></li>
+      <li class="nav-item"><a class="nav-link" href="#about"><span></span></a></li>
+      <li class="nav-item"><a class="nav-link" href="#contact"><span></span></a></li>
+    </ul>
+  </div>
+  {% include "scripts.html" %}
+
+</body>
+</html>
+
+
+
