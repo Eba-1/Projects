@@ -44,11 +44,19 @@ Projects/
 
 ## My Areas of Interest
 
-### Mobile Application Development (Native and Cross-Platform)
+- Mobile Application Development (Native and Cross-Platform)
 
-### Website Development
+- Website Development
 
 ## Technologies I used so far
+
+- Android Studio
+- Java
+- React-Native
+- Python
+- XML, JSON
+- Firebase
+- MySQL
 
 ## Creators
 
