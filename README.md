@@ -74,6 +74,8 @@ Projects/
 
 ## Creators
 
+P.S. Some of the projects I listed above were done in groups. Here they are :point_down: :
+
 **Creator 1**
 
 - <https://github.com/usernamecreator1>
@@ -84,7 +86,6 @@ Projects/
 
 ## Thanks
 
-Some Text
+Thank you for paying a visit. More things are yet to come so don't forget to check me out later. Peace! :smile:
 
 
-Enjoy :metal:
