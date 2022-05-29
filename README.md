@@ -19,7 +19,7 @@
 
 - [Introduction](#introduction)
 - [My areas of Interest](#my-areas-of-interest)
-- [Technologies I have used for the projects](#technologies-I-have-used-so-for-the-projects)
+- [Technologies I have used for the projects](#technologies-I-have-used-for-the-projects)
 - [Creators](#creators)
 - [Thanks](#thanks)
 
