@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/Eba-1/Projects">
-    <img src="https://via.placeholder.com/72" alt="Logo" width=72 height=72>
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.hubbado.com%2Fcontent%2Fimages%2F2020%2F01%2Fprojectmanager.png&f=1&nofb=1" alt="Logo" width=72 height=72>
   </a>
 
   <h3 align="center">Projects</h3>
@@ -10,7 +10,7 @@
     <br>
     <a href="https://reponame/issues/new?template=bug.md">View Portfolio</a>
     ·
-    <a href="https://reponame/issues/new?template=feature.md&labels=feature">Contact Me</a>
+    <a href="linked.com/in/ebenezerwoldehana">Contact Me</a>
   </p>
 </p>
 
@@ -46,7 +46,7 @@ Projects/
 
 - Mobile Application Development (Native and/or Cross-Platform)
 
-- Website Development
+- Website Development (specifically, back-end)
 
 - Cloud Computing
 
