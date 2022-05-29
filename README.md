@@ -27,7 +27,7 @@
 
 ## Introduction
 
-Greetings! I've worked on quite a lot of small projects; whether it be in the form of personal works or class assignments. Here I share to you some of the recent projects that I've been working on (P.S. I'm still working on some of them).  
+Greetings :wave:! I've worked on quite a lot of small projects; whether it be in the form of personal works or class assignments. Here I share to you some of the recent projects that I've been working on (P.S. I'm still working on some of them).  
 
 ```Repository Folder Structure
 Projects/
