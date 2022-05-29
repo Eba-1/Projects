@@ -20,7 +20,7 @@
 - [Introduction](#introduction)
 - [My areas of Interest](#my-areas-of-interest)
 - [Technologies I have used for the projects](#technologies-I-have-used-for-the-projects)
-- [Creators](#creators)
+- [Colabs](#colabs)
 - [Thanks](#thanks)
 
 
@@ -72,15 +72,15 @@ Projects/
 - PostgresSQL
 - Python
 
-## Creators
+## Colabs
 
-P.S. Some of the projects I listed were done in groups. Here are some of the amazing persons I worked with :point_down: :
+P.S. Some of the projects I listed were done in groups. Here are some of the amazing persons that I have worked with :point_down: :
 
-**Creator 1**
+**Member 1**
 
 - <https://github.com/usernamecreator1>
 
-**Creator 2**
+**Member 2**
 
 - <https://linked.com/in/dawithadush>
 
