@@ -10,7 +10,7 @@
     <br>
     <a href="https://reponame/issues/new?template=bug.md">View Portfolio</a>
     ·
-    <a href="linked.com/in/ebenezerwoldehana">Contact Me</a>
+    <a href="https://linked.com/in/ebenezerwoldehana">Contact Me</a>
   </p>
 </p>
 
