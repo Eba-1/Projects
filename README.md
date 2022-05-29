@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/Eba-1/Projects">
-    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.hubbado.com%2Fcontent%2Fimages%2F2020%2F01%2Fprojectmanager.png&f=1&nofb=1" alt="Logo" width=72 height=72>
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.hubbado.com%2Fcontent%2Fimages%2F2020%2F01%2Fprojectmanager.png&f=1&nofb=1" alt="Logo" width=144 height=144>
   </a>
 
   <h3 align="center">Projects</h3>
