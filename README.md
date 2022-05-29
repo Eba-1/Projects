@@ -74,7 +74,7 @@ Projects/
 
 ## Creators
 
-P.S. Some of the projects I listed above were done in groups. Here they are :point_down: :
+P.S. Some of the projects I listed were done in groups. Here are some of the amazing persons I worked with :point_down: :
 
 **Creator 1**
 
