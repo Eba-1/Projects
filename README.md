@@ -1,27 +1,22 @@
-# Projects
-This repository contains all the projects I have done in different domains.
-
-
 <p align="center">
   <a href="https://github.com/Eba-1/Projects">
     <img src="https://via.placeholder.com/72" alt="Logo" width=72 height=72>
   </a>
 
-  <h3 align="center">Logo</h3>
+  <h3 align="center">Projects</h3>
 
   <p align="center">
-    Short description
+    This repository contains all the projects I have done in different domains.
     <br>
-    <a href="https://reponame/issues/new?template=bug.md">Report bug</a>
+    <a href="https://reponame/issues/new?template=bug.md">View Portfolio</a>
     ·
-    <a href="https://reponame/issues/new?template=feature.md&labels=feature">Request feature</a>
+    <a href="https://reponame/issues/new?template=feature.md&labels=feature">Contact Me</a>
   </p>
 </p>
 
 
 ## Table of contents
 
-- [Status](#status)
 - [Introduction](#introduction)
 - [My areas of Interest](#my-areas-of-interest)
 - [Technologies I used so far](#technologies-I-used-so-far)
@@ -30,13 +25,9 @@ This repository contains all the projects I have done in different domains.
 
 
 
-## Status
-
-Here goes all the budgets
-
 ## Introduction
 
-Greetings! I've worked on quite a lot of small projects; whether it be in the form of personal works or class assignments. Here I share to you some of the recent projects that I've been working on and still working on.  
+Greetings! I've worked on quite a lot of small projects; whether it be in the form of personal works or class assignments. Here I share to you some of the recent projects that I've been working on (P.S. I'm still working on some of them).  
 
 ```Repository Folder Structure
 Projects/
