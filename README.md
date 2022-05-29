@@ -19,7 +19,7 @@
 
 - [Introduction](#introduction)
 - [My areas of Interest](#my-areas-of-interest)
-- [Technologies I used so far](#technologies-I-used-so-far)
+- [Technologies I have used for the projects](#technologies-I-have-used-so-for-the-projects)
 - [Creators](#creators)
 - [Thanks](#thanks)
 
@@ -44,25 +44,42 @@ Projects/
 
 ## My Areas of Interest
 
-- Mobile Application Development (Native and Cross-Platform)
+- Mobile Application Development (Native and/or Cross-Platform)
 
 - Website Development
 
-## Technologies I used so far
+- Cloud Computing
+
+## Technologies I have used for the projects
+
+**Mobile Application Development**
 
 - Android Studio
-- Java
-- React-Native
-- Python
-- XML, JSON
 - Firebase
+- Java
+- Linux CLI
+- Node.js
+- React-Native
+- XML, JSON
+
+**Website Development**
+
+- CSS
+- HTML
+- Javascript
 - MySQL
+- Node.js
+- PostgresSQL
+- Python
 
 ## Creators
 
 **Creator 1**
 
 - <https://github.com/usernamecreator1>
+
+**Creator 2**
+
 - <https://linked.com/in/dawithadush>
 
 ## Thanks
