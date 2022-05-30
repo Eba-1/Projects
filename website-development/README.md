@@ -1,102 +1,89 @@
-public class MainActivity extends AppCompatActivity {
-    private Context context;
-    private BluetoothAdapter bluetoothAdapter;
-    private ChatUtils chatUtils;
+<p align="center">
+  <a href="https://github.com/Eba-1/Projects">
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.hubbado.com%2Fcontent%2Fimages%2F2020%2F01%2Fprojectmanager.png&f=1&nofb=1" alt="Logo" width=144 height=144>
+  </a>
 
-    private ListView listaafaMainChat;
-    private EditText edCreateMessage;
-    private Button btnSendMessage;
-    private ArrayAdapter<String> adapterMainChat;
+  <h3 align="center">Projects</h3>
 
-    private final int LOCATION_PERMISSION_REQUEST = 101;
-    private final int SELECT_DEVICE = 102;
-asfafdf
-  cdvfb
+  <p align="center">
+    This repository contains all the projects I have done in different domains.
+    <br>
+    <a href="https://reponame/issues/new?template=bug.md">View Portfolio</a>
+    ·
+    <a href="https://linkedin.com/in/ebenezerwoldehana">Contact Me</a>
+  </p>
+</p>
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
 
-        context = this;
+## Table of contents
 
-        init();
-        initBluetooth();
-        chatUtils = new ChatUtils(context, handler);
-    }
+- [Introduction](#introduction)
+- [My areas of Interest](#my-areas-of-interest)
+- [Technologies I have used for the projects](#technologies-I-have-used-for-the-projects)
+- [Colabs](#colabs)
+- [Thanks](#thanks)
 
-    
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.menu_search_devices:
-                checkPermissions();
-                return true;
-            case R.id.menu_enable_bluetooth:
-                enableBluetooth();
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
-    }
 
-    private void checkPermissions() {
-        if (ContextCompat.checkSelfPermission(context, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, LOCATION_PERMISSION_REQUEST);
-        } else {
-            Intent intent = new Intent(context, DeviceListActivity.class);
-            startActivityForResult(intent, SELECT_DEVICE);
-        }
-    }
+## Introduction
 
-  
+Greetings :wave:! I've worked on quite a lot of small projects; whether it be in the form of personal works or class assignments. Here I share to you some of the recent projects that I've been working on (P.S. I'm still working on some of them).  
 
-    @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-        if (requestCode == LOCATION_PERMISSION_REQUEST) {
-            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                Intent intent = new Intent(context, DeviceListActivity.class);
-                startActivityForResult(intent, SELECT_DEVICE);
-            } else {
-                new AlertDialog.Builder(context)
-                        .setCancelable(false)
-                        .setMessage("Location permission is required.\n Please grant")
-                        .setPositiveButton("Grant", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialogInterface, int i) {
-                                checkPermissions();
-                            }
-                        })
-                        .setNegativeButton("Deny", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialogInterface, int i) {
-                                MainActivity.this.finish();
-                            }
-                        }).show();
-            }
-        } else {
-            super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        }
-    }
+```Repository Folder Structure
+Projects/
+└── appllication-development/
+|   ├── 01-InternetlessChat-Android-Development/
+|   ├── 02-React-Native-Movie-App/
+|   ├── 03-Gym-Member-Registration-App
+|   └── 04-Lost-and-Found
+|
+└── website-development/
+    ├── cool-sidebar/
+    └── portfolio-with-Django/
+```
 
-    private void enableBluetooth() {
-        if (!bluetoothAdapter.isEnabled()) {
-            bluetoothAdapter.enable();
-        }
+## My Areas of Interest
 
-        if (bluetoothAdapter.getScanMode() != BluetoothAdapter.SCAN_MODE_CONNECTABLE_DISCOVERABLE) {
-            Intent discoveryIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_DISCOVERABLE);
-            discoveryIntent.putExtra(BluetoothAdapter.EXTRA_DISCOVERABLE_DURATION, 300);
-            startActivity(discoveryIntent);
-        }
-    }
+- Mobile Application Development (Native and/or Cross-Platform)
 
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        if (chatUtils != null) {
-            chatUtils.stop();
-        }
-    }
-}
+- Website Development (specifically, back-end)
+
+- Cloud Computing
+
+## Technologies I have used for the projects
+
+**Mobile Application Development**
+
+- Android Studio
+- Firebase
+- Java
+- Linux CLI
+- Node.js
+- React-Native
+- XML, JSON
+
+**Website Development**
+
+- CSS
+- HTML
+- Javascript
+- MySQL
+- Node.js
+- PostgresSQL
+- Python
+
+## Colabs
+
+P.S. Some of the projects I listed were done in groups. Here are some of the amazing persons that I have worked with :point_down: :
+
+**Member 1**
+
+- <https://github.com/usernamecreator1>
+
+**Member 2**
+
+- <https://linked.com/in/dawithadush>
+
+## Thanks
+
+Thank you for paying a visit. More things are yet to come so don't forget to check me out later. Peace! :smile:
