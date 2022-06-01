@@ -1,0 +1,100 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="android.example.internet_lesschat"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:5:5-68
+11-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:5:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:6:5-74
+12-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:6:22-71
+13    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+13-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:7:5-76
+13-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:8:5-79
+14-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:9:5-81
+15-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+16-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:10:5-73
+16-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:10:22-70
+17    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+17-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:11:5-78
+17-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:11:22-75
+18    Missing permissions required by intent BluetoothAdapter.ACTION_REQUEST_DISCOVERABLE: android.permission.BLUETOOTH_ADVERTISE
+19    <application
+19-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:14:5-33:19
+20        android:allowBackup="true"
+20-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:15:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.7.0] C:\Users\Eba\.gradle\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:16:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:17:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:18:9-54
+26        android:supportsRtl="true"
+26-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:19:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.InternetlessChat" >
+28-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:20:9-54
+29        <activity
+29-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:21:9-23:40
+30            android:name="android.example.internet_lesschat.DeviceListActivity"
+30-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:22:13-47
+31            android:exported="false" />
+31-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:23:13-37
+32        <activity
+32-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:24:9-32:20
+33            android:name="android.example.internet_lesschat.MainActivity"
+33-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:25:13-41
+34            android:exported="true" >
+34-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:26:13-36
+35            <intent-filter>
+35-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:27:13-31:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:28:17-69
+36-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:28:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:30:17-77
+38-->C:\Users\Eba\Desktop\Projects\application-development\01-InternetlessChat-Android-Development\app\src\main\AndroidManifest.xml:30:27-74
+39            </intent-filter>
+40        </activity>
+41
+42        <provider
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Eba\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+43            android:name="androidx.startup.InitializationProvider"
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Eba\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+44            android:authorities="android.example.internet_lesschat.androidx-startup"
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Eba\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+45            android:exported="false" >
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Eba\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+46            <meta-data
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Eba\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+47                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Eba\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+48                android:value="androidx.startup" />
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Eba\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+49            <meta-data
+49-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Eba\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+50                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Eba\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+51                android:value="androidx.startup" />
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Eba\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+52        </provider>
+53    </application>
+54
+55</manifest>

@@ -1,0 +1,10 @@
+android/example/internet_lesschat/BuildConfig.java
+ android.example.internet_lesschat.BuildConfig
+android/example/internet_lesschat/DeviceListActivity.java
+ android.example.internet_lesschat.DeviceListActivity
+ android.example.internet_lesschat.DeviceListActivity$1
+ android.example.internet_lesschat.DeviceListActivity$2
+android/example/internet_lesschat/MainActivity.java
+ android.example.internet_lesschat.MainActivity
+ android.example.internet_lesschat.MainActivity$1
+ android.example.internet_lesschat.MainActivity$2
